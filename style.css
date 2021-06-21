@@ -1,0 +1,180 @@
+#welcome {
+	position: absolute;
+	overflow: hidden;
+	height: 800px;
+	background: linear-gradient(blue 0%, purple 100%);
+	color: aqua;
+	display: table;
+	width: 100%;
+	opacity: 0.83;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+
+#aboutcontact {
+	position: absolute;
+	overflow: hidden;
+	height: 250px;
+	background: linear-gradient(red 0%, purple 100%);
+	color: white;
+	display: table;
+	width: 100%;
+	opacity: 0.83;
+}
+
+.parallax-inner {
+	display: table-cell;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+}
+
+body {
+	padding-top: 800px;
+	text-align: center;
+	margin: 0px;
+}
+
+.profile {
+	position: absolute;
+	top: 230px;
+	left: 870px;
+	width: 300px;
+	z-index: 2;
+}
+
+.profile_bg {
+	position: absolute;
+	top: 250px;
+	left: 850px;
+	width: 300px;
+	height: 300px;
+	z-index: -1;
+}
+
+img {
+	border-radius: 23px;
+	transition: transform .2s;
+}
+
+img:hover{
+	transform: scale(1.2)
+}
+
+#name {
+	font-size: 40px;
+	line-height: 1.2;
+	font-family: 'Rouge Script', cursive;
+}
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#hi {
+	font-family: 'Cuprum', sans-serif;
+}
+
+h1 {
+	font-size: 26px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+#Guitar {
+	transform: rotate(40deg);
+}
+
+.about {
+	font-size: 15px;
+}
+
+#channel {
+	color: white;
+}
+
+
+.menu {
+	list-style: none;
+	z-index: 90;
+	top: 10px;
+	right: 30px;
+	position: absolute;
+	cursor: pointer;
+}
+
+
+
+.link {
+	font-family: cursive;
+	font-size: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+}
+
+
+.link:hover {
+	background-color: cyan;
+}
+
+a {
+	text-decoration: none;
+	color: #0a0057;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+#button {
+	background-color: #FFF;
+	border: 2px solid #0d3562;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	padding: 14px 40px;
+	border-radius: 8px;
+	transition-duration: 0.4s;
+	color: black;
+	font-family: cursive;
+}
+
+#button:hover {
+	background-color: #0d3562;
+	color: white;
+}
+
+p{
+	font-family: Verdana,Geneva,sans-serif
+}
+
+.inspirationpics{
+	height: 400px;
+}
+
+#inspiration{
+	height: 650px;
+	background: radial-gradient(#639fff, #00076e);
+	display: table;
+	width: 100%;
+	opacity: 0.83;
+	color: #FFF;
+}
